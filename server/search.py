@@ -36,6 +36,8 @@ RESIZED_INPUT_TENSOR_NAME = 'ResizeBilinear:0'
 MAX_NUM_IMAGES_PER_CLASS = 2 ** 27 - 1  # ~134M
 
 def tags_search(img_name):
+    if os.path.exists('static/tags') is False:
+        os.mkdir('static/tags')
     img_number = img_name.split('.')[0]
     number = img_number.strip('im')
     res_path = 'static/tags/' + img_name.split(".")[0] + '.txt'
