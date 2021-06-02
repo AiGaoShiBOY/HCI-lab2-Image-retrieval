@@ -1,0 +1,48 @@
+.homepage-image{
+    height: 240px;
+    width:240px;
+}
+
+.myinput{
+    width:100px;
+}
+
+.result{
+    height: 200px;
+}
+
+.hint{
+    position: fixed;
+    top:10px;
+    width: 30%;
+    margin-left: 35%;
+    z-index: 999999;
+    display: none;
+}
+
+.the-progress{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1cm;
+    margin-bottom: 1cm;
+}
+
+.myfooter{
+    font-family: Avenir;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 2cm;
+    margin-bottom: 1cm
+}
+
+.myp{
+    display: inline;
+}
+
+
+.mybtn{
+    display: inline;
+    margin:0 0.5cm;
+}
